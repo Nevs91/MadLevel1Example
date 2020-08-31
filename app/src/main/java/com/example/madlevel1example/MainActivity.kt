@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.madlevel1example.databinding.ActivityMainBinding
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root) // Sets the activity layout resource file.
+
         // Using the id given in the layout file you can access the component.
         // Set an action when the user clicks on the confirm button.
         binding.btnConfirm.setOnClickListener {
